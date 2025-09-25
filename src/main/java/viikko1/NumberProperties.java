@@ -9,15 +9,16 @@ public class NumberProperties {
         else if(n>0 && n%2==1){
             return "positiivinen pariton";
         }
-        else if(n<0&&n%2==0){
+        else if(n<0 && n%2==0){
             return "negatiivinen parillinen";
         }
-        else if(n<0&&n%2==1){
+        else if(n<0 && n%2==-1){
             return "negatiivinen pariton";
         }
-        else {
+        else  { 
             return "nolla";
         }
+        
         
     }
 }
